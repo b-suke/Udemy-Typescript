@@ -1,1 +1,1 @@
-# Udemy-Typescript
+# Typescript
