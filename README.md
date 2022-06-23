@@ -8,16 +8,44 @@
 git checkout -b BranchName
 ```
 
-新規ファイルを作成した場合
-
-```
-git add .
-```
-
 状態確認
 
 ```
 git status
 ```
 
+修正した内容をステージに追加
+
+```
+git add .
+```
+
 変更をローカルリポジトリにコミット
+
+```
+git commit -m "message"
+```
+
+リモートリポジトリに変更反映
+
+```
+git push -r origin HEAD
+```
+
+メインブランチに移動
+
+```
+git checkout -
+```
+
+ブランチをメインにマージする
+
+```
+git merge -
+```
+
+マージしたメインブランチをリモートにも反映
+
+```
+git push origin HEAD
+```
