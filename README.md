@@ -29,7 +29,7 @@ git commit -m "message"
 リモートリポジトリに変更反映
 
 ```
-git push -r origin HEAD
+git push -u origin HEAD
 ```
 
 メインブランチに移動
